@@ -1,1 +1,1 @@
-# sticket-prereqs
+# osticket-prereqs
