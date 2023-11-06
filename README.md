@@ -46,8 +46,7 @@ World Wide Web Services -> Application Development Features
 ->CGI
  ->Common HTTP Features
 Internet Information Services -> Web Management Tools
--> IIS Management Console
-Management
+-> IIS Management Console Management
 ![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/5a049364-a58e-4799-a296-24075318a980)
 
 
