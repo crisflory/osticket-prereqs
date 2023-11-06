@@ -90,7 +90,7 @@ Go back to IIS, sites -> Default -> osTicket.
 Double-click PHP Manager.
 Click "Enable or disable an extension".
 Enable: php_imap.dll, php_intl.dll, and php_opcache.dll.
-![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/cc1532c3-cd1f-4ed1-b9f4-8954511a383e)
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/ed5cb488-7b09-4913-9583-24fe23d5fda1)
 
 Refresh the osTicket site in your browser to observe the changes.
 Rename "ost-config.php" from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
@@ -99,6 +99,7 @@ Assign permissions to "ost-config.php":
 
 Disable inheritance and remove all permissions.
 Add new permissions for everyone with "All" access.
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/e38273f8-ae13-4302-9c40-ffd448dde467)
 Continue setting up osTicket in the browser (click "Continue").
 Name your Helpdesk.
 Specify the default email (which receives customer emails).
@@ -107,6 +108,7 @@ Open HeidiSQL.
 Create a new session using "root" and "Password1".
 Connect to the session.
 Create a database named "osTicket".
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/2b2d246b-6cf5-4efa-9c28-ea6a1e5c380d)
 Continue setting up osTicket in the browser:
 Specify the MySQL Database as "osTicket".
 Enter the MySQL Username as "root".
@@ -131,6 +133,8 @@ Configure Roles:
 
 In the Admin Panel, navigate to Agents -> Roles.
 Create a "Supreme Admin" role.
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/adb05839-8937-413f-a4e8-0ba05906ca31)
+
 Configure Departments:
 
 In the Admin Panel, go to Agents -> Departments.
@@ -151,6 +155,8 @@ Configure Users (customers):
 
 In the Agent Panel, go to Users -> Add New.
 Add "Karen" and "Ken" as users.
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/8fe05f32-e5a7-4049-abcc-3ec54880ddcd)
+
 Configure SLA:
 
 In the Admin Panel, access Manage -> SLA.
@@ -162,6 +168,8 @@ Configure help topics: "Business Critical Outage," "Personal Computer Issues," "
 Part 4 (Tickets and Ticket Lifecycle)
 
 Practice creating, triaging, and solving tickets. For guidance on handling multiple tickets, consider watching instructional videos. Here are some ticket examples:
+
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/6ea74019-ec1a-401e-af91-f74290d4be16)
 
 Sev-A (1 hour, 24/7) [entire mobile/online banking system is down] -> Assign to SysAdmins.
 Sev-B (4 hours, 24/7) [accounting department needs Adobe upgrade, broken].
