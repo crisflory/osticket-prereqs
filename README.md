@@ -148,8 +148,8 @@ Allow anyone to create tickets:
 
 In the Admin Panel, go to Settings -> User Settings.
 Set "Registration Required" to "Require registration and login to create tickets."
-Configure Agents (workers):
 
+Configure Agents (workers):
 In the Admin Panel, navigate to Agents -> Add New.
 Add "Jane" and "John" as agents.
 Configure Users (customers):
