@@ -167,6 +167,8 @@ In the Admin Panel, go to Manage -> Help Topics.
 Configure help topics: "Business Critical Outage," "Personal Computer Issues," "Equipment Request," and "Password Reset."
 Part 4 (Tickets and Ticket Lifecycle)
 
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/6bd28262-1886-4670-a5ed-660a57613392)
+
 Practice creating, triaging, and solving tickets. For guidance on handling multiple tickets, consider watching instructional videos. Here are some ticket examples:
 
 ![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/6ea74019-ec1a-401e-af91-f74290d4be16)
