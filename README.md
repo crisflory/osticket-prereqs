@@ -43,13 +43,16 @@ Install/Enable IIS in Windows with the following features:
 
 CGI and Common HTTP Features
 World Wide Web Services -> Application Development Features
- CGI
- Common HTTP Features
+->CGI
+ ->Common HTTP Features
 Internet Information Services -> Web Management Tools
- IIS Management Console
-Download and install "PHP Manager for IIS" (PHPManagerForIIS_V1.5.0.msi) from the Installation Files.
+-> IIS Management Console
+Management
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/5a049364-a58e-4799-a296-24075318a980)
 
-Download and install the "Rewrite Module" (rewrite_amd64_en-US.msi) from the Installation Files.
+
+Download and install "PHP Manager for IIS" 
+Download and install the "Rewrite Module" 
 
 Create a directory at C:\PHP.
 
@@ -80,11 +83,15 @@ Rename the "upload" folder to "osTicket" within C:\inetpub\wwwroot.
 Reload IIS (Open IIS, stop and start the server).
 Access the osTicket site at sites -> Default -> osTicket.
 Click "Browse *:80".
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/50d0e111-65a2-4268-93d7-e2d46e669e57)
+
 Note that some extensions are not enabled.
 Go back to IIS, sites -> Default -> osTicket.
 Double-click PHP Manager.
 Click "Enable or disable an extension".
 Enable: php_imap.dll, php_intl.dll, and php_opcache.dll.
+![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/cc1532c3-cd1f-4ed1-b9f4-8954511a383e)
+
 Refresh the osTicket site in your browser to observe the changes.
 Rename "ost-config.php" from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 
