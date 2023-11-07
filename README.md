@@ -124,7 +124,7 @@ Clean up:
 
 Delete: C:\inetpub\wwwroot\osTicket\setup.
 Set permissions for "ost-config.php" to "Read" only: C:\inetpub\wwwroot\osTicket\include\ost-config.php.
-Notes:
+
 
 Access your help desk login page: http://localhost/osTicket/scp/login.php.
 End Users osTicket URL: http://localhost/osTicket/.
