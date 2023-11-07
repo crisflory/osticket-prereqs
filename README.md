@@ -151,11 +151,11 @@ Set "Registration Required" to "Require registration and login to create tickets
 
 Configure Agents (workers):
 In the Admin Panel, navigate to Agents -> Add New.
-Add "Jane" and "John" as agents.
+Add two agents of your name of choice.
 Configure Users (customers):
 
 In the Agent Panel, go to Users -> Add New.
-Add "Karen" and "Ken" as users.
+Add two users with different names than your agents that you added.
 ![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/8fe05f32-e5a7-4049-abcc-3ec54880ddcd)
 
 Configure SLA:
