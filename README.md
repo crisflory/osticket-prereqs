@@ -117,15 +117,17 @@ Congratulations! Hopefully, the installation went smoothly.
 ![image](https://github.com/crisflory/osticket-prereqs/assets/147748310/a896525c-face-46e6-84d5-dd7df4a4ddc2)
 
 Access your help desk login page: http://localhost/osTicket/scp/login.php.
-End Users osTicket URL:
-http://localhost/osTicket/
+
+End Users osTicket URL: http://localhost/osTicket/
 
 Clean up:
 
 Delete: C:\inetpub\wwwroot\osTicket\setup.
+
 Set permissions for "ost-config.php" to "Read" only: C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 
 
 Access your help desk login page: http://localhost/osTicket/scp/login.php.
+
 End Users osTicket URL: http://localhost/osTicket/.
 
